@@ -29,7 +29,9 @@
     "prettier": "prettier --write 'contracts/**/*.sol'",
     "start-server": "node server.js",
     "test": "yarn compile-ts && truffle test",
-    "test:ropsten": "yarn test --network ropsten"
+    "test:ropsten": "yarn test --network ropsten",
+    "build": "nftkey-marketplace-v2 build --output public"
+
   },
   "author": "If.x",
   "license": "AGPL-3.0-or-later",
